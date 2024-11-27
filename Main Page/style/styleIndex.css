@@ -1,0 +1,164 @@
+.buttonBody {
+  border-radius: 15px;
+  padding: 50px;
+  box-shadow: 0 8px 16px 0;
+  background-color: #cfd8dc;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  background-color:#d3d3d3;
+ 
+}
+.content {
+  margin-left: 35%;
+  margin-top:2%;
+}
+.navb{
+  display:flex;
+  justify-content:space-between;
+}
+.section {
+  display:flex;
+  width:70%;
+  color:#a60000;
+  background-color: #ffffff;
+  padding: 5px;
+  border-radius: 20px;
+}
+.section1 {
+  width: 25%;
+  height:70%;
+  margin-top: 25%;
+  margin-left:45%;
+  background-color: #ffffff;
+  padding: 10px;
+  border-radius: 20px;
+}
+.section2 {
+  background-color: #d3d3d3;
+  padding: 5px;
+  border-radius: 20px;
+  border: 5px solid #a60000;
+  display: flex; 
+  justify-content: center; 
+  align-items: center;                  
+}
+
+.section2 a {
+  text-decoration: none;
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 5px 5px;
+}
+.sign-in {
+  border-right: 5px solid #a60000; 
+  margin-right:10px; 
+
+}
+.section2 a:hover {
+    background-color: #a60000;
+
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #a60000;
+  color: #fff;
+  padding: 1em;
+  border-bottom: 4px solid #000;
+}
+
+.navbar ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar ul li {
+  margin: 0 1em;
+}
+.navbar, .navbar ul, .navbar ul li {
+  margin-left:150px;
+}
+
+.navbar ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.sidebar {
+  background-color: #a60000;
+  padding: 2em;
+  width: 200px;
+  position: fixed;
+  height: 100%;
+  border-right: 4px solid #000;
+}
+.sidebar ul {
+  list-style-type: none;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+
+
+.footer {
+  background-color: #a60000;
+  color: #fff;
+  text-align: center;
+  padding: 1em;
+  margin-top: auto;
+  border-top: 4px solid #000;
+}
+.logo {
+  width: 25%;
+  max-width: 150px;
+  margin-left: 40%;
+  margin-top: 60%;
+}
+.logoCo{
+  width:100px;
+  border-radius: 40%;
+}
+.logo_TR{
+    width: 75px; 
+    height: 50px;
+}
+.logo_BL{
+  width:75%;
+  margin-left:15%;
+  margin-top:70%;
+}
+.form {
+  width:60%;
+  padding:25px;
+  display: flex;
+  flex-direction: column;
+  background-color:#ebecee;
+  border-radius:15px;
+  margin-left:30%;
+  margin-top:25px;
+  font-weight:bold;
+  font-size:20px;
+  color:#a60000;
+
+}
+label{
+  margin-top:15px;
+}

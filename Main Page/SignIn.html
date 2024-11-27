@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/styleIndex.css">
+    <title>Sign-In</title>
+    <link rel="icon" href="Img/logo.png" type="image/png">
+</head>
+
+<body bgcolor="">
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+            <li></li>
+        </ul>
+        <img src="Img/logo.png" class="logo_TR">
+    </nav>
+
+
+    <aside class="sidebar">
+        <ul>
+            <li>Profile</li>
+            <li><a href="https://www.facebook.com/profile.php?id=61560993684603"><img src="Img/facebook.png" class="profile logo"></a></li>
+            <li><a href="https://www.instagram.com/tn.gears/"><img src="Img/instagram.png" class="profile logo"></a></li>
+            <li><a href="https://www.tiktok.com/@tunisian.gears?lang=fr"><img src="Img/tiktok.png" class="profile logo"></a></li>
+            <li><a href="https://mail.google.com/mail/?view=cm&fs=1&to=tunisian.gears@gmail.com"><img src="Img/gmail.png" class="profile logo"></a></li>
+        </ul>
+        <img src="Img/logo.png" class="logo_BL">
+    </aside>
+
+    <div>
+        <form id="formSection" action="/submit" method="post" class="form">
+        
+            <label for="name">Name :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="surname">Surname :</label>
+            <input type="text" id="surname" name="surname" required>
+        
+            <label for="birthdate">Date de naissance :</label>
+            <input type="date" id="birthdate" name="birthdate" required>
+            <label for="email">Email:</label>
+            <input type="email" name="email" />
+            <label for="password" >Password</label>
+            <input type="password" name="password" minlength="8" required />
+            <label for="password">confirmer psw:</label>
+            <input type="password" name="password" minlength="8" required />
+            <label for="number"">mobile</label>
+            <input type="number" name="number" placeholder="+216" pattern="\d{8}" />
+            <label for="ville">Ville</label>
+            <input type="ville" name="ville" />
+            <label for="Gouvernerat" >Gouvernerat</label>
+            <input type="gouvernerat" name="gouvernerat" />
+        </form>
+    </div>
+
+
+
+    <footer class="footer">
+        <p>&copy; 2024 Sayarti. All rights reserved.</p>
+    </footer>
+</body>
+
+</html>
